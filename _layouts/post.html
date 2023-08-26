@@ -8,6 +8,12 @@ layout: default
     {{ page.date | date: "%B %d, %Y" }}
   </div>
 
+  {% if page.toc %}
+  <h2>Table of Contents</h2>
+  {% toc %}
+  <hr/>
+  {% endif %}
+
   <div class="entry">
     {{ content }}
   </div>

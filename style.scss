@@ -13,6 +13,12 @@
 /* BASE RULES */
 /**************/
 
+sup {
+  vertical-align: super;
+  font-size: 70%;
+  font-weight: bold;
+}
+
 html {
   font-size: 100%;
 }
@@ -25,7 +31,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 1500px;
   padding: 0 10px;
   width: 100%;
 }
@@ -257,7 +263,7 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
   }
 
@@ -283,7 +289,52 @@ footer {
   text-align: center;
 }
 
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+.figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
 @import "highlights";
 @import "svg-icons";
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/*
+.toc__list:before {
+  content: "Table Of Contents";
+  font-weight: bold;
+  font-size: 1.5rem;
+ }
+ 
+ .toc__list {
+  border: 2px solid #eee;
+  border-radius: 4px;
+  line-height: 1.8rem;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+ }
+ 
+ .toc__sublist li {
+  padding-left: 1.25rem;
+ }
+ 
+ .toc-h2:first-child {
+  margin-top: 1rem;
+ }  
+ 
+ #toc a {
+  color: #BE185D;
+  text-decoration: underline;
+ }
+ 
+ #toc a:hover {
+  color: #9D174D;
+ }
+*/ 
