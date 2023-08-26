@@ -86,7 +86,7 @@ The humble blob begins its life when someone (presumably a rollup sequencer) sig
 1. `max_fee_per_blob_gas` which is the bid for how much the sender is willing to pay for the blob. (See below for more info on blob pricing)
 2. `blob_version_hashes` which is a list of the hashes of blobs (because yes, a single transaction can come with multiple blobs)
 
-Notably, the transaction doesn't content the actual blob data. The execution layer is only aware of a reference to the blob, via the `blob_version_hashes` field. The actual data is part of a "sidecar" which is received, shared and validated on the consensus layer.
+Notably, the transaction doesn't contain the actual blob data. The execution layer is only aware of a reference to the blob, via the `blob_version_hashes` field. The actual data is part of a "sidecar" which is received, shared and validated on the consensus layer.
 
 # Anatomy of a Blob
 
