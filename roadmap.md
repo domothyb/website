@@ -4,7 +4,7 @@ title: Annotated Ethereum Roadmap
 toc: true
 ---
 
-This document aims to serve as an entry point for the various items on [the Ethereum roadmap](https://storage.googleapis.com/ethereum-hackmd/upload_665af413e5cbe85144d753c4e81e2cd5.jpg), with a quick summary along with links for those who want to dive deeper.
+This document aims to serve as an entry point for the various items on [the Ethereum roadmap](/images/roadmap.jpg), with a quick summary along with links for those who want to dive deeper.
 
 It is meant as a living document, feel free to [contact me](https://twitter.com/domothy) if any of the information presented here is unclear, inaccurate, outdated or missing better links.
 
